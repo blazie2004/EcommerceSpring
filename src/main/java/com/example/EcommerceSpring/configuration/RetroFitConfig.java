@@ -6,8 +6,15 @@ import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+import org.springframework.beans.factory.annotation.Value;
+
 @Configuration
 public class RetroFitConfig {
+
+
+//    @Value("${fakestore.baseurl}")
+//    private String baseUrl;
+
     @Bean
     public FakeStoreProductApi fakeStoreApi() {
         Retrofit retrofit = new Retrofit.Builder()

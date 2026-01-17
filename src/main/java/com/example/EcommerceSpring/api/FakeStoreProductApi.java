@@ -11,7 +11,6 @@ import java.util.List;
 public interface FakeStoreProductApi {
     @GET("/products")
     Call<List<FakeStoreProductsResponseDto>> getAllProducts();
-
-
-
 }
+
+

@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/api/products")
 public class ProductsController {
 
-    IProductsService _categoryService;
+    private final IProductsService _categoryService;
 
 
     public ProductsController(IProductsService categoryService){

@@ -5,6 +5,7 @@ import com.example.EcommerceSpring.Dto.ProductDto;
 import com.example.EcommerceSpring.api.FakeStoreProductApi;
 import org.springframework.stereotype.Component;
 
+
 import java.util.List;
 @Component
 public class FakeProductGateway implements IProductsGateway {
